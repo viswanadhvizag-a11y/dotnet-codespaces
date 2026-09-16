@@ -4,7 +4,7 @@ using System.Diagnostics;
 
 namespace FrontEnd.Pages;
 
-[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+[ResponseCache(Duration = 1, Location = ResponseCacheLocation.None, NoStore = false)]
 [IgnoreAntiforgeryToken]
 public class ErrorModel : PageModel
 {
